@@ -9,6 +9,7 @@ services:
 
   node-app:
     build: .
+    image: akashjobanputra/exp-node-app
     depends_on:
       - mongo
     environment:
